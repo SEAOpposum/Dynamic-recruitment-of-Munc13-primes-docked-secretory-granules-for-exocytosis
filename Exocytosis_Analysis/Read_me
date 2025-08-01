@@ -1,0 +1,13 @@
+#This folder contains the codes used for the exocytosis analysis, as well as the comparison between events and failure copy number. The codes here are for the Munc13-1 and Munc13-2 comparison data; we have not written generalistic codes
+#  due to the differences in the statistic, however, we convert the delta F values to Molecule copy number in the same way, therefore I uploaded these codes as an example of the analysis. 
+
+#The following steps are performed in the analysis:
+# 1. Exocytotic and failure granules were selected manually in Fiji (ImageJ) with the tools written in the "Complementarytools.ijm" macros.
+# 2. ROIs were measured and extracted to an Excel sheet with custom-made MATLAB codes "BargTIRFCoordinatesFiji". I have modified the codes, but I am not the author of them, so I apologize for
+#    not making them available. You can get the codes upon request from the corresponding author of the paper.
+# 3. Cell area and granule density of every cell were measured in Fiji (ImageJ) with the "Batch_imageJ count granule ST1 Channels.ijm" macros.
+# 4. The Excel sheets were loaded into MATLAB and further analysis of cumulative exocytosis, events and granule density was done with the code "GetExoData.m"
+# 5. Statistics of exocytosis were done in R with the "AnovaGeneral.R"
+# 6. Events and failure copy number comparison was done with the "DF and DFs comparison.R" code. The code required the Single_Molecule_Calibration codes and the Antibody_Correction codes to run. The last one
+#    is important because the code runs them locally on the computer.
+# 7. Average projections of all the selected events and failures were done with the MATLAB code "AverangeGrmovies.m" 
