@@ -1,3 +1,7 @@
 # We estimated the EGFP-labeled X-protein fraction of the total X-protein. The codes for the analysis are here, and one runs them in the following sequence.
-# 1. Select ROI
+# 1. Select cell and background ROIs with the "SaveROIS.ijm" macro in Fiji (ImageJ).
+# 2. Run Expression proportionMessTIRFV4.ijm" to get an Excel table with the subtracted background intensity value of every cell in every channel
+# 3. Add the values to an Excel document with a sheet for every condition
+# 4. When running "DF and DFs comparison.R" code in the Exocytosis_Analysis folder, the code will call "Excelviewer4AllMunc13AB.R". The last makes linear regressions of the bg-subtracted values
+#  and gives the coefficients to "DF and DFs comparison.R" code environment to estimate the fraction of dark molecules in every cell by their EGFP cell intensity.
 
