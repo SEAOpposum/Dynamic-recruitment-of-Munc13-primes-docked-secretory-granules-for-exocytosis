@@ -1,0 +1,2 @@
+# The Electrophysiological data were extracted from PatchMaster to an Excel document. Every cell is a row in the Excel document, and the protocols applied to the cell were concatenated in the column direction.
+# The code "HumanisletCalciumAnalysis.R" analyzes the depolarization trains, calculates the Frechet distance, and makes a binary model to estimate the probability of facilitation phenotype 
