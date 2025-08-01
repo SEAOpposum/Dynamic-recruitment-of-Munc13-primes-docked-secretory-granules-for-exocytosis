@@ -1,0 +1,4 @@
+The Molecules copy number analyses were done in N steps:
+1. Single EGFP molecules were recorded at high laser power to provoke their bleaching.
+2. The Molecules were tracked until their disappearance moment with "TrackNTrace" (https://github.com/scstein/TrackNTrace).
+3. The molecule intensities were extracted by the code "TracktracesV2.m"
