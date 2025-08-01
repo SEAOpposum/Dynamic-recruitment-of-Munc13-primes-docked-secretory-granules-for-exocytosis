@@ -1,0 +1,7 @@
+The following steps were performed to get the conversion value of the EGFP intensity into molecule copy number
+1. Single EGFP molecules were recorded at high laser power to provoke their bleaching.
+2. The Molecules were tracked until their disappearance moment with "TrackNTrace" (https://github.com/scstein/TrackNTrace).
+3. The molecule intensities of every video were extracted by the code "TracktracesV2.m"
+4. They were manually concatenated in a file called DFALL.xlsx
+5. The values were fitted either with Origin or R to a single Gaussian distribution-
+  The R code for the batch Gaussian fitting is "GausianFitandDFcalculation.R"
