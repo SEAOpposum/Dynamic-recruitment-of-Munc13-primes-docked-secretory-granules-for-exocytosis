@@ -1,2 +1,2 @@
-# The present directory contains the codes that were used in the "Dynamic recruitment of Munc13 primes docked secretory granules for exocytosis" to make the exocytosis analysis, molecule copy number, and facilitation phenotype classification.
-# The folders Single_Molecule_Calibration, Antibody_correction, and Exocytosis_Analysis contain codes that belong to the same analysis. While Plasticity_Phenotype_Classifier_And_Binary_Model is an individual analysis code. 
+The present directory contains the codes that were used in the "Dynamic recruitment of Munc13 primes docked secretory granules for exocytosis" to make the exocytosis analysis, molecule copy number, and facilitation phenotype classification.
+The folders Single_Molecule_Calibration, Antibody_correction, and Exocytosis_Analysis contain codes that belong to the same analysis. While Plasticity_Phenotype_Classifier_And_Binary_Model is an individual analysis code. 
