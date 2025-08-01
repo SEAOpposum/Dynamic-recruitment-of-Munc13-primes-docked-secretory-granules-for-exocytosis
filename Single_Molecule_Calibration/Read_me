@@ -5,3 +5,4 @@ The following steps were performed to get the conversion value of the EGFP inten
 4. They were manually concatenated in a file called DFALL.xlsx
 5. The values were fitted either with Origin or R to a single Gaussian distribution-
   The R code for the batch Gaussian fitting is "GausianFitandDFcalculation.R"
+6. Later, these values are used in the exocytosis analysis to estimate the molecule copy number at granules
