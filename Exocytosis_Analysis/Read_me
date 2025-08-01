@@ -8,6 +8,6 @@
 # 3. Cell area and granule density of every cell were measured in Fiji (ImageJ) with the "Batch_imageJ count granule ST1 Channels.ijm" macros.
 # 4. The Excel sheets were loaded into MATLAB and further analysis of cumulative exocytosis, events and granule density was done with the code "GetExoData.m"
 # 5. Statistics of exocytosis were done in R with the "AnovaGeneral.R"
-# 6. Events and failure copy number comparison was done with the "DF and DFs comparison.R" code. The code required the Single_Molecule_Calibration codes and the Antibody_Correction codes to run. The last one
+# 6. Events and failure copy number comparison was done with the "DF and DFs comparison.R" code. The code required the Single_Molecule_Calibration codes and the Anti-Body_Corrections codes to run. The last one
 #    is important because the code runs them locally on the computer.
 # 7. Average projections of all the selected events and failures were done with the MATLAB code "AverangeGrmovies.m" 
